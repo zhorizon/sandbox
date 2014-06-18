@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
     public void onResume() {
     	ImageView iv = (ImageView) findViewById(R.id.image_view);
     	
-    	iv.setImageBitmap(decodeSampleBitmapFromResource(getResources(), R.drawable.ic_launcher, 10, 10));
+    	iv.setImageBitmap(decodeSampleBitmapFromResource(getResources(), R.drawable.test, 10, 10));
     }
     
     public static Bitmap decodeSampleBitmapFromResource(Resources res, int resId, int reqWidth, int reqHeight) {
