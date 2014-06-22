@@ -34,6 +34,7 @@ public class MainActivity extends Activity {
     	
     	ImageView iv = (ImageView) findViewById(R.id.image_view);
     	
+    	// load bitmap
     	loadBitmap(R.drawable.test, iv);
     }
     
